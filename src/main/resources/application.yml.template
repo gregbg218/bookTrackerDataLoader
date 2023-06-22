@@ -1,0 +1,26 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name:
+      username:
+      password:
+      schema-action:
+      request:
+        timeout:
+      connection:
+        timeout:
+        init-query-timeout:
+
+datastax.astra:
+  secure-connect-bundle:
+
+astra.db:
+  id:
+  region:
+  keyspace:
+  application.token:
+
+
+
+
+
