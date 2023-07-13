@@ -7,6 +7,9 @@ import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.core.mapping.Table;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Table(value="author_by_id")
 public class Author {
     @Id @PrimaryKeyColumn(name="author_id",ordinal = 0,type= PrimaryKeyType.PARTITIONED)
@@ -42,4 +45,10 @@ public class Author {
     public void setPersonalName(String personalName) {
         this.personalName = personalName;
     }
+
+
 }
+
+
+
+
